@@ -1,0 +1,21 @@
+# Dependensi
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Rahasia
+.env
+.env.*
+
+# Log & temp
+*.log
+logs/
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Lockfile (opsional diabaikan)
+package-lock.json
+yarn.lock
