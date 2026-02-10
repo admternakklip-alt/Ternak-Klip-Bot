@@ -222,7 +222,7 @@ function getEditPaymentModal(userId) {
           .setCustomId("dana_input")
           .setLabel("DANA")
           .setStyle(TextInputStyle.Short)
-          .setPlaceholder("Opsional")
+          .setPlaceholder("+62")
           .setRequired(false),
       ),
       new ActionRowBuilder().addComponents(
@@ -230,7 +230,7 @@ function getEditPaymentModal(userId) {
           .setCustomId("gopay_input")
           .setLabel("Gopay")
           .setStyle(TextInputStyle.Short)
-          .setPlaceholder("Opsional")
+          .setPlaceholder("+62")
           .setRequired(false),
       ),
       new ActionRowBuilder().addComponents(
@@ -238,7 +238,7 @@ function getEditPaymentModal(userId) {
           .setCustomId("mandiri_input")
           .setLabel("Mandiri")
           .setStyle(TextInputStyle.Short)
-          .setPlaceholder("Opsional")
+          .setPlaceholder("Masukkan nomor rekening Mandiri")
           .setRequired(false),
       ),
       new ActionRowBuilder().addComponents(
@@ -246,7 +246,7 @@ function getEditPaymentModal(userId) {
           .setCustomId("bca_input")
           .setLabel("BCA")
           .setStyle(TextInputStyle.Short)
-          .setPlaceholder("Opsional")
+          .setPlaceholder("Masukkan nomor rekening BCA")
           .setRequired(false),
       ),
     );
